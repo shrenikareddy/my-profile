@@ -1,21 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Profile</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        .profile { max-width: 400px; margin: auto; background-color: #f9f9f9; border-radius: 8px; padding: 20px; box-shadow: 0 0 12px #ccc;}
-        .profile img { width: 100px; border-radius: 50%; display: block; margin: auto;}
-        .profile h1 { text-align: center; }
-        .profile p { text-align: center; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WanderWorld - Travel Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero-container {
+      position: relative;
+      height: 350px;
+      width: 100%;
+    }
+
+    .hero-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .post {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    .post img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-    <div class="profile">
-        <img src="https://via.placeholder.com/100" alt="Your Photo">
-        <h1>K.Shrenika Reddy</h1>
-        <p><strong>About me:</strong>I am studying at Manipal Institute of Technology, currently a B.Tech 1st year student in Computer Science and Engineering(CSE). I am interested in playing badminton, love watching cricket, and enjoy learning new programming skills .</p>
-        <p><strong>Contact:</strong> shrenika.reddy2301@gmail.com</p>
-    </div>
+
+<header>
+  <h1>WanderWorld</h1>
+  <p>Explore • Dream • Discover</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="beaches.html">Beaches</a>
+  <a href="mountains.html">Mountains</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="hero-container">
+  <img src="images/hero.jpg" alt="Hero Image">
+  <div class="hero-text">Welcome to WanderWorld</div>
+</div>
+
+<div class="content">
+  <h2>Latest Posts</h2>
+
+  <div class="post">
+    <img src="images/beach1.jpg" alt="Beach 1">
+    <h3>🌴 Best Beaches to Visit</h3>
+    <p>Discover turquoise waters, white sands, and peaceful sunsets...</p>
+  </div>
+
+  <div class="post">
+    <img src="images/mountain1.jpg" alt="Mountain 1">
+    <h3>⛰️ Amazing Mountain Adventures</h3>
+    <p>Explore breathtaking peaks and hiking trails around the world...</p>
+  </div>
+
+  <div class="post">
+    <img src="images/city.jpg" alt="City 1">
+    <h3>🏙️ Exploring a New City</h3>
+    <p>Walk through vibrant streets and discover local culture and food.</p>
+  </div>
+</div>
+
 </body>
 </html>
+
+        
